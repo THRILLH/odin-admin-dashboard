@@ -15,6 +15,7 @@
     background-color: #91DDCF;
     display: grid;
     grid-template-columns: 50px 100px;
+    grid-template-rows: 100px repeat(5, 50px) 100px repeat(3, 50px);
 }
 
 .sidebar .dashboard {
