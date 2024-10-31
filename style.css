@@ -30,8 +30,8 @@
     font-weight: bold;
 }
 
-.sidebar img {
-    width: 20px;
+img {
+    width: 25px;
 }
 
 .sidebar * {
@@ -40,6 +40,23 @@
 
 .heading {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-top,
+.heading-bottom {
+    display: flex;
+}
+
+.user-avatar-small {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.user-avatar-large {
+    width: 70px;
+    border-radius: 50%;
 }
 
 .main {
