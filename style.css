@@ -74,6 +74,23 @@ input {
     border-radius: 50%;
 }
 
+.greeting p {
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+button {
+    background-color: #E8C5E5;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 8px 0;
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
+
 .main {
     background-color: #F7F9F2;
 }
