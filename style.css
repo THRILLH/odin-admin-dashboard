@@ -47,6 +47,21 @@ img {
 .heading-top,
 .heading-bottom {
     display: flex;
+    padding: 10px 40px 10px 30px;
+    gap: 20px;
+    align-items: center;
+}
+
+input {
+    width: max(400px, 50%);
+    height: 30px;
+    border: 0;
+    border-radius: 60px;
+    background-color: #dfe2db;
+}
+
+.right-barrier {
+    margin-left: auto;
 }
 
 .user-avatar-small {
