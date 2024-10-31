@@ -7,7 +7,7 @@
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: max(20vw, 280px) 80vw;
     grid-template-rows: 1fr 6fr;
 }
 
