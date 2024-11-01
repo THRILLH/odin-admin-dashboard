@@ -19,6 +19,8 @@
     grid-template-rows: 100px repeat(5, 50px) 100px repeat(3, 50px);
     padding-top: 5vh;
     padding-left: 2vw;
+    position: relative;
+    z-index: 3;
 }
 
 .sidebar .dashboard {
@@ -42,6 +44,9 @@ img {
     background-color: white;
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+    position: relative;
+    z-index: 2;
 }
 
 .heading-top,
