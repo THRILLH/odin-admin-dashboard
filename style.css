@@ -173,6 +173,26 @@ button {
     padding-bottom: 10px;
 }
 
+.bottom-card {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 25% 25% 25% 25%;
+    align-items: center;
+}
+
+.bottom-card img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.trending p {
+    font-size: 1rem;
+}
+
+.trending p:first-child {
+    color: black;
+}
+
 .accent {
     color: #F19ED2;
 }
